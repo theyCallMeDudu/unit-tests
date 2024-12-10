@@ -1,0 +1,17 @@
+{
+    "name": "coelh/unit-tests",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo Coelho"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
