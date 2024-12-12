@@ -1,1 +1,1 @@
-{"version":1,"defects":{"AuthTest::test_login":3},"times":{"AuthTest::test_login":0.004}}
+{"version":1,"defects":{"AuthTest::test_login":3,"ValidateTest::test_valid_email":3},"times":{"AuthTest::test_login":0.004,"ValidateTest::test_validate_required":0,"ValidateTest::test_required":0,"ValidateTest::test_valid_email":0.001}}
