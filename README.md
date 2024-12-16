@@ -29,10 +29,13 @@ Open the composer.json file and modify the autoload section to the following par
 
 ```json
 "autoload": {
-    "psr-4": {
-        "app\\": "app/",
-        "core\\": "core/"
-    }
+  "psr-4": {
+      "app\\": "app/",
+      "core\\": "core/"
+  }
+},
+"scripts": {
+  "serve": "php -S 127.0.0.1:8000 -t public"
 }
 ```
 
@@ -55,4 +58,10 @@ tests/
   │       ├── database/
   │       └── library/
 ```
+
+## 6. **Install phpdotenv using Composer**
+```bash
+composer require vlucas/phpdotenv
+```
+
 You are now ready to start writing unit tests for your project! 🎉

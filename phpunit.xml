@@ -3,7 +3,9 @@
          xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.6/phpunit.xsd"
          bootstrap="vendor/autoload.php"
          colors="true"
-         testdox="true">
+         testdox="true"
+         display-warnings="true"
+>
     <testsuites>
         <testsuite name="app">
             <directory>tests/unit/app</directory>
