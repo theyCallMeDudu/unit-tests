@@ -7,9 +7,17 @@ use Exception;
 
 class Validate
 {
-    public function required()
+    private array $errors;
+
+    public function required(string $fieldName, string $message = 'Field required')
     {
-        return true;
+        $this->errors[$fieldName] = $message;
+
+    }
+
+    public function get_errors(): array
+    {
+        return $this->errors;
     }
 
     public function email()

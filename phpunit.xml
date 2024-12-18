@@ -4,8 +4,13 @@
          bootstrap="vendor/autoload.php"
          colors="true"
          testdox="true"
-         display-warnings="true"
->
+         display-warnings="true">
+    <php>
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_NAME" value="invest_control" />
+        <env name="DB_USERNAME" value="root" />
+        <env name="DB_PASSWORD" value="" />
+    </php>
     <testsuites>
         <testsuite name="app">
             <directory>tests/unit/app</directory>
